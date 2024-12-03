@@ -6,7 +6,7 @@ const cookie = require('cookie-parser')
 app.use(cookie())
 app.use(
   cors({
-    origin: process.env.FRONT_END,
+    origin: ["https://w2fcfl-3000.csb.app"],
     credentials: true,
   })
 );
